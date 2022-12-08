@@ -1,0 +1,548 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* this above code is injected by myreweb */
+/* header section1 =>logo style */
+.logo {
+    text-align: center;
+    margin: 25px 0;
+    background: #FFFFFF;
+}
+
+/* section2 =>hero banner style */
+.hero_banner1 {
+    background: linear-gradient(0deg, #936C01 0%, rgba(43, 17, 1, 0) 100%), url('/main_banner\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    min-height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.container_flex {
+    display: flex;
+}
+
+/* hero_banner text  h1 h2 container*/
+.hero_banner1_text {
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* h1 => best furniture text */
+.source-serif {
+    font-family: 'Source Serif 4', serif;
+    font-size: 80px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1;
+    margin-right: 7%;
+}
+
+/* h2 => Give your home the best it deserves. Ethically sourced wood, great designs */
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 15px 0;
+    text-align: center;
+    margin-right: 6%;
+}
+
+/* hero_banner shop now button */
+.banner_button {
+    background-color: #eee4e4;
+    padding: 16px 0;
+    width: 200px;
+    margin: 28px auto;
+}
+
+.banner_btn {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #0c0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end hero_banner section1 */
+/* start section2 => main_banner */
+.brown_redwood_sofa {
+    min-height: 640px;
+    margin-top: 60px;
+}
+
+.container {
+    max-width: 1299px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.block_wrapper {
+    display: flex;
+}
+
+.brown_redwood_sofa .block_left, .brown_redwood_sofa .block_right {
+    width: 50%;
+}
+
+.brown_redwood_sofa .block_left {
+    background-color: #fff5d9;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Serif 4', serif;
+    font-weight: 400;
+}
+
+.brown_redwood_sofa .block_content {
+    max-width: 499px;
+    width: 100%;
+    margin-left: 69px;
+    margin-right: 25px;
+    /* padding: 60px 0; */
+
+}
+
+.brown_redwood_sofa .block_content h3 {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: #85452A;
+}
+
+.brown_redwood_sofa .block_content h4 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #85452A;
+    margin-top: 20px;
+}
+
+.brown_redwood_sofa .block_content a {
+    padding: 10px 60px;
+    text-decoration: none;
+    display: inline-block;
+    background: #85452A;
+    color: #FFFFFF;
+    font-family: roboto;
+    font-size: 16px;
+    line-height: 13px;
+    margin-top: 29px;
+}
+
+/* .brown_redwood_sofa .block_right{
+
+} */
+.brown_redwood_sofa .block_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* section2 end=> brown redwood sofa  */
+.ready_for_home_conatiner {
+    align-items: center;
+}
+
+.ready_for_home_conatiner_text {
+    font-family: 'Source Serif 4';
+    font-style: normal;
+    font-size: 60px;
+    line-height: 100%;
+    margin-top: 38px;
+    /* identical to box height, or 60px */
+
+    text-align: center;
+
+    color: #85452A;
+
+}
+
+/* section3 button */
+.home_button {
+    background-color: #85452A;
+    padding: 9px 0;
+    width: 17%;
+    margin: 20px auto;
+    margin-bottom: 60px;
+}
+
+.home_btn2 {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+
+/* section3 end=> ready for beautyful sofa */
+/* start media query */
+@media screen and (max-width:1041px) {
+    .brown_redwood_sofa .block_content h3{
+        font-size: 40px;
+    }
+    .block_wrapper{
+        margin: 40px;
+    }
+    .ready_for_home_conatiner_text{
+        margin-top: 0;
+    }
+    .brown_redwood_sofa {
+        min-height: 555px;
+        /* margin-top: 60px; */
+    }
+    .home_button {
+        width: 225px;
+        margin-bottom: 200px;
+    }
+
+    .home_btn2 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:920px) {
+
+    /* section1 => hero banner */
+    .hero_banner1_text .source-serif {
+        font-size: 75px;
+    }
+
+    /* section2 => brown redwood sofa */
+    .brown_redwood_sofa{
+        min-height: 500px;
+    }
+    .brown_redwood_sofa .block_content {
+        margin: 0 40px;
+    }
+
+    .brown_redwood_sofa .block_content h3 {
+        font-size: 38px;
+        line-height: 42px;
+        padding-top: 25px;
+    }
+    .brown_redwood_sofa {
+        min-height: 500px;
+    }
+    .brown_redwood_sofa .block_content a{
+        margin-bottom: 45px;
+    }
+    /* section3 => ready for beautyful home */
+    .ready_for_home_conatiner_text {
+        font-size: 60px;
+        /* text-align: left;
+    padding-left: 115px; */
+    }
+
+    .ready_for_home_conatiner {
+        margin-top: 0;
+
+    }
+
+    .home_button {
+        width: 225px;
+    }
+
+    .home_btn2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .brown_redwood_sofa .block_left, .brown_redwood_sofa .block_right {
+        width: 100%;
+        /* padding: 10px 0; */
+    }
+    /* section1 => hero banner */
+    .hero_banner1_text .source-serif {
+        font-size: 55px;
+    }
+
+    /* section2 => brown redwood sofa */
+    .container {
+        padding: 0;
+    }
+
+    .block_wrapper {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .brown_redwood_sofa {
+        margin: 0;
+    }
+
+    .brown_redwood_sofa .block_left .block_right {
+        width: 100%;
+    }
+
+    .brown_redwood_sofa .block_content {
+        margin: 0 30px;
+        max-width: 640px;
+        padding: 50px 0;
+    }
+
+    .brown_redwood_sofa .block_content h3 {
+        font-size: 30px;
+        line-height: 1;
+    }
+
+    /* section3 => ready for beautyful home */
+    .ready_for_home_conatiner_text {
+        font-size: 60px;
+        text-align: left;
+        padding-left: 22px;
+    }
+
+    .ready_for_home_conatiner {
+        margin-top: 60px;
+    }
+
+    .home_button {
+        width: 225px;
+    }
+
+    .home_btn2 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:537px) {
+
+    /* section1 => hero banner  */
+    .hero_banner1_text .source-serif {
+        font-size: 55px;
+    }
+
+    /* section2 => brown_redwood_sofa */
+    .brown_redwood_sofa {
+        margin: 0;
+    }
+    .block_wrapper{
+        margin: 0;
+    }
+
+    .brown_redwood_sofa .block_content {
+        margin: 0 28px;
+    }
+
+    .brown_redwood_sofa .block_content h3 {
+        font-size: 40px;
+        line-height: 40px;
+        padding-top: 40px;
+    }
+
+    /* section3 => ready for beautyful home */
+    .ready_for_home_conatiner_text {
+        font-size: 53px;
+        text-align: left;
+        padding-left: 21px;
+    }
+
+    .ready_for_home_conatiner {
+        margin-top: 60px;
+    }
+
+    .home_button {
+        width: 170px;
+        margin:20px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    /* section1 hero banner */
+    .hero_banner1_text {
+        margin-top: 160px;
+    }
+
+    .hero_banner1_text .source-serif {
+        font-size: 40px;
+    }
+
+    .hero_banner1_text .roboto {
+        font-size: 11px;
+        /* padding: 10.5px 29px 0 24px; */
+    }
+
+    .banner_button {
+        width: 150px;
+        margin: 20px 90px 170px 5px;
+        padding: 12px;
+    }
+
+    /* section2 brown redwood sofa */
+    .brown_redwood_sofa {
+        margin: 0;
+    }
+
+    .brown_redwood_sofa .block_content {
+        margin: 15px;
+    }
+
+    .brown_redwood_sofa .block_content h {
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    /* section3 => ready for beautyful home */
+    .ready_for_home_conatiner_text {
+        font-size: 40px;
+        text-align: left;
+        padding-left: 21px;
+    }
+
+    .ready_for_home_conatiner {
+        margin-top: 60px;
+    }
+
+    .home_button {
+        width: 200px;
+        margin-left: 25px;
+    }
+
+}
